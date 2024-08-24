@@ -1,0 +1,106 @@
+@font-face {
+  font-family: 'Montserrat-Light';
+  src: url('../../app/fonts/Montserrat/Montserrat-Light.ttf');
+}
+@font-face {
+  font-family: 'Montserrat';
+  src: url('../../app/fonts/Montserrat/Montserrat-Medium.ttf');
+}
+.header {
+  box-shadow: var(--cards-box-shadow);
+  padding: 20px 50px;
+  position: sticky;
+  position: -webkit-sticky /*safari icin*/;
+  top: 0;
+  right: 0;
+  left: 0;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  animation: fadeInFromTop 1s ease-out;
+}
+.menuContainer {
+  display: flex;
+  align-items: center;
+  gap: 30px;
+}
+.menuContainer button {
+  animation: slideInFromRight 1s ease-out;
+}
+.menuContainer button p {
+  color: var(--text-color);
+  font-size: 18px;
+  font-family: 'Montserrat';
+}
+.servicesButton {
+  position: relative;
+}
+.subMenu {
+  position: absolute;
+  top: 30px;
+  left: -20px;
+  background-color: var(--background-color);
+  padding: 20px;
+  border-radius: var(--cards-border-radius);
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 20px;
+  box-shadow: var(--cards-box-shadow);
+}
+.subMenu button {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+.subMenu button p {
+  text-wrap: nowrap;
+}
+.hamburgerMenuButton {
+  display: none;
+}
+@keyframes fadeInFromTop {
+  0% {
+    opacity: 0;
+    transform: translateY(-20px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+@keyframes slideInFromRight {
+  0% {
+    transform: translateX(100%);
+    opacity: 0;
+  }
+  100% {
+    transform: translateX(0);
+    opacity: 1;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .hamburgerMenuButton {
+    display: block;
+    position: relative;
+  }
+  .menuContainer {
+    position: absolute;
+    background-color: var(--cards-bg-color);
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    gap: 20px;
+    border-radius: var(--cards-border-radius);
+    top: calc(100% + 10px);
+    right: 10px;
+    left: 10px;
+    width: calc(100% - 20px);
+  }
+  .subMenu {
+    display: none;
+  }
+}
