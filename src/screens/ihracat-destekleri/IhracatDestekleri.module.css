@@ -1,0 +1,30 @@
+.switchWrapperStyle {
+  padding: 20px;
+}
+
+.labelContainer {
+  padding: 20px;
+}
+.label {
+  text-align: center;
+  font-family: 'Montserrat';
+  font-size: 14px;
+}
+
+@media screen and (max-width: 768px) {
+  .switchWrapperStyle div div {
+    width: 100%;
+    flex-shrink: 0;
+  }
+
+  .switchWrapperStyle div:first-child {
+    overflow: auto;
+  }
+  .switchWrapperStyle div:first-child::-webkit-scrollbar {
+    display: none;
+  }
+  .switchWrapperStyle div::before {
+    width: var(--tab-width, auto);
+    left: var(--left-position, 0);
+  }
+}

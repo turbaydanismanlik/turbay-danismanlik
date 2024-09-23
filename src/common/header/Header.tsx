@@ -7,8 +7,10 @@ import {useReducer} from 'react'
 import {RiArrowRightSLine} from 'react-icons/ri'
 import {SlMenu} from 'react-icons/sl'
 import AppUtil from '@/util/AppUtil'
+import {useRouter} from 'next/navigation'
 
 const Header = () => {
+  const router = useRouter()
   const [showMobileMenu, toggleMobileMenu] = useReducer(
     (isShown) => !isShown,
     false,
@@ -19,17 +21,21 @@ const Header = () => {
   )
   const {width} = AppUtil.useWindowDimensions()
   const handleSubMenu = (item: {
-    id: number
+    id: number | string
     title: string
     subList?: Array<{id: string; title: string}>
+    linkTo?: string
   }) => {
     if (item?.subList && item?.subList?.length > 0) {
       toggleShowSubMenu()
+    } else {
+      item?.linkTo && router.push(item?.linkTo)
+      toggleMobileMenu()
     }
   }
   return (
     <header className={styles.header}>
-      <div>
+      <div className={styles.logo} onClick={() => router.push('/')}>
         <Image
           src={Images.header.logo}
           alt="Şirket Logosu"
@@ -40,7 +46,10 @@ const Header = () => {
         />
       </div>
 
-      <button onClick={toggleMobileMenu} className={styles.hamburgerMenuButton}>
+      <button
+        onClick={() => toggleMobileMenu()}
+        className={styles.hamburgerMenuButton}
+      >
         <SlMenu />
       </button>
 
@@ -60,8 +69,11 @@ const Header = () => {
                     >
                       {item.subList?.map((subItem) => {
                         return (
-                          <button key={subItem.id}>
-                            <RiArrowRightSLine />
+                          <button
+                            key={subItem.id}
+                            onClick={() => handleSubMenu(subItem)}
+                          >
+                            <RiArrowRightSLine className={styles.arrow} />
                             <p>{subItem.title}</p>
                           </button>
                         )
@@ -72,7 +84,7 @@ const Header = () => {
               )
             } else {
               return (
-                <button key={item?.id}>
+                <button key={item?.id} onClick={() => handleSubMenu(item)}>
                   <p>{item.title}</p>
                 </button>
               )

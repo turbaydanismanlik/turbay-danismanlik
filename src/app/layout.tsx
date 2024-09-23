@@ -2,6 +2,8 @@ import type {Metadata} from 'next'
 // import {Montserrat} from 'next/font/google'
 import './globals.css'
 import Head from 'next/head'
+import Header from '@/common/header/Header'
+import Footer from '@/common/footer/Footer'
 
 // const montserrat = Montserrat({
 //   weight: ['100', '200', '300', '400', '500', '600', '700', '800', '900'],
@@ -27,7 +29,9 @@ export default function RootLayout({
         //  className={montserrat.className}
         suppressHydrationWarning={true}
       >
+        <Header />
         {children}
+        <Footer />
       </body>
     </html>
   )

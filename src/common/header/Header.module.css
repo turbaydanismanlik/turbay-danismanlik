@@ -19,6 +19,8 @@
   justify-content: space-between;
   width: 100%;
   animation: fadeInFromTop 1s ease-out;
+  background-color: var(--background-color);
+  z-index: 9;
 }
 .menuContainer {
   display: flex;
@@ -27,11 +29,23 @@
 }
 .menuContainer button {
   animation: slideInFromRight 1s ease-out;
+  padding: 5px 10px;
+}
+.menuContainer button:hover {
+  background-color: var(--text-color);
+  border-radius: var(--border-radius);
+}
+.menuContainer button:hover p {
+  color: var(--background-color);
+}
+.menuContainer button:hover .arrow {
+  color: white;
 }
 .menuContainer button p {
   color: var(--text-color);
   font-size: 18px;
   font-family: 'Montserrat';
+  text-transform: uppercase;
 }
 .servicesButton {
   position: relative;
@@ -42,12 +56,12 @@
   left: -20px;
   background-color: var(--background-color);
   padding: 20px;
-  border-radius: var(--cards-border-radius);
+  border-radius: var(--border-radius);
   display: flex;
   flex-direction: column;
   align-items: flex-start;
   gap: 20px;
-  box-shadow: var(--cards-box-shadow);
+  /* box-shadow: var(--cards-box-shadow); */
 }
 .subMenu button {
   display: flex;
@@ -56,6 +70,7 @@
 }
 .subMenu button p {
   text-wrap: nowrap;
+  text-transform: capitalize;
 }
 .hamburgerMenuButton {
   display: none;
@@ -80,7 +95,9 @@
     opacity: 1;
   }
 }
-
+.logo {
+  cursor: pointer;
+}
 @media screen and (max-width: 768px) {
   .hamburgerMenuButton {
     display: block;
@@ -90,17 +107,28 @@
     position: absolute;
     background-color: var(--cards-bg-color);
     flex-direction: column;
-    align-items: center;
+    align-items: flex-start;
     justify-content: center;
     padding: 20px;
     gap: 20px;
-    border-radius: var(--cards-border-radius);
+    border-radius: var(--border-radius);
     top: calc(100% + 10px);
     right: 10px;
     left: 10px;
     width: calc(100% - 20px);
   }
+  .servicesButton {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
   .subMenu {
-    display: none;
+    position: static;
+    gap: 10px;
+  }
+  .logo {
+    margin-left: auto;
+    margin-right: auto;
   }
 }

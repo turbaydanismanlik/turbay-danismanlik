@@ -5,4 +5,8 @@ const footer = {
   tdLogo: require('../../public/assets/images/footer/tdLogo.svg'),
   mayFairWhiteLogo: require('../../public/assets/images/footer/logo.svg'),
 }
-export default {header, footer}
+
+const home = {
+  yatirimTesvik: require('../../public/assets/images/home/yatirim-tesvik.svg'),
+}
+export default {header, footer, home}

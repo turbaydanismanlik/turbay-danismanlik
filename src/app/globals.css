@@ -1,13 +1,14 @@
 :root {
-  --primary-color: #e7f0df;
+  --primary-color: #ffffff;
   --secondary-color: #ffffff;
-  --tertiary-color: #2b1f17;
-  --cards-border-radius: 25px;
-  --buttons-border-radius: 50px;
+  --tertiary-color: #3c5930;
+  --brown-color: #2a1f17;
+  --border-radius: 10px;
   --cards-box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.1);
   --background-color: var(--primary-color);
   --cards-bg-color: var(--secondary-color);
   --text-color: var(--tertiary-color);
+  --secondary-text-color:var(--brown-color)
   background-color: var(--background-color);
 }
 
@@ -17,7 +18,7 @@
   margin: 0;
 }
 body {
-  color: var(--text-color);
+  /* color: var(--text-color); */
   height: 100%;
   overflow-x: hidden;
 }

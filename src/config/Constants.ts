@@ -1,13 +1,25 @@
 export const headerMenu = [
-  {id: 0, title: 'Hakkımızda'},
+  {id: 0, title: 'Hakkımızda', linkTo: '/hakkimizda'},
   {
     id: 1,
     title: 'Hizmetlerimiz',
     subList: [
-      {id: 'h-1', title: 'İhracat Destekleri'},
-      {id: 'h-2', title: 'Yatırım Teşvik'},
-      {id: 'h-3', title: 'E-ihracat Destekleri'},
-      {id: 'h-4', title: 'SGK Teşvik'},
+      {
+        id: 'h-1',
+        title: 'İhracat Destekleri',
+        linkTo: '/hizmetlerimiz/ihracat-destekleri',
+      },
+      {
+        id: 'h-2',
+        title: 'Yatırım Teşvik',
+        linkTo: '/hizmetlerimiz/yatirim-tesvik',
+      },
+      {
+        id: 'h-3',
+        title: 'E-İhracat Destekleri',
+        linkTo: '/hizmetlerimiz/e-ihracat',
+      },
+      {id: 'h-4', title: 'SGK Teşvik', linkTo: '/hizmetlerimiz/sgk-tesvik'},
     ],
   },
   {id: 2, title: 'Blog'},
