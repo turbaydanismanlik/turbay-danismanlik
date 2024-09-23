@@ -37,10 +37,10 @@ const IhracatDestekleriScreen = () => {
 
   const handleTabChange = (value: number) => {
     setSelectedTab(value)
-    const activeTab: Element | null = document.querySelector(
+    const activeTab: any = document.querySelector(
       `.${styles.switchWrapperStyle} div div:nth-child(${selectedTab + 1})`,
     )
-    const switchWrapper: Element | null = document.querySelector(
+    const switchWrapper: any = document.querySelector(
       `.${styles.switchWrapperStyle}`,
     )
     console.log(activeTab)
