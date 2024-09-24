@@ -29,3 +29,10 @@
 .container ul li {
   padding: 5px 0;
 }
+@media screen and (max-width: 768px) {
+  .container td,
+  .container th {
+    padding: 12px 5px !important;
+    font-size: 12px;
+  }
+}
