@@ -12,7 +12,9 @@
 .container h1 {
   font-size: 20px;
 }
-.container p {
+.container p,
+.container td,
+.container th {
   font-size: 15px;
   text-align: justify;
   color: var(--secondary-text-color);

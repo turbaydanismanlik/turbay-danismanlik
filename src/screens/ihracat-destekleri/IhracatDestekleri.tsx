@@ -3,6 +3,17 @@ import {useEffect, useState} from 'react'
 import styles from './IhracatDestekleri.module.css'
 import CustomTabComponent from '@/common/customTabComponent/CustomTabComponent'
 import KüreselTedarikZinciri from '@/components/küresel-tedarik-zinciri/KüreselTedarikZinciri'
+import PazaraGirisBelgesiDestegi from '@/components/pazara-giris-belgesi-destegi/PazaraGirisBelgesiDestegi'
+import YurtDisiMarkaTescilDestegi from '@/components/yurt-disi-marka-tescil-destegi/YurtDisiMarkaTescilDestegi'
+import PazaraGirisProjesiHazirlamaDestegi from '@/components/pazara-giris-projesi-hazirlama-destegi/PazaraGirisProjesiHazirlamaDestegi'
+import YurtDisiPazarArastirmasiDestegi from '@/components/yurt-disi-pazar-arastirmasi-destegi/YurtDisiPazarArastirmasiDestegi'
+import YurtDisiFuarDestegi from '@/components/yurt-disi-fuar-destegi/YurtDisiFuarDestegi'
+import YurtİciFuarDestegi from '@/components/yurt-ici-fuar-destegi/YurtİciFuarDestegi'
+import SirketVeMarkaAlimDestegi from '@/components/sirket-ve-marka-alim-destegi/SirketVeMarkaAlimDestegi'
+import BirimKiraDestegi from '@/components/birim-kira-destegi/BirimKiraDestegi'
+import TanitimDestegi from '@/components/tanitim-destegi/TanitimDestegi'
+import TasarimciSirketVeTasarimOfisiDestegi from '@/components/tasarimci-sirket-ve-tasarim-ofisi-destegi/TasarimciSirketVeTasarimOfisiDestegi'
+import GemiYatSektorundeFaaliyetGosterenSirketlereTasarimDestegi from '@/components/gemi-yat-sektorunde-faaliyet-gosteren-sirketlere-tasarim-destegi/GemiYatSektorundeFaaliyetGosterenSirketlereTasarimDestegi'
 
 const IhracatDestekleriScreen = () => {
   const [selectedTab, setSelectedTab] = useState(0)
@@ -27,11 +38,19 @@ const IhracatDestekleriScreen = () => {
     {label: getLabel('Pazara Giriş Projesi Hazırlama Desteği', 7), value: 7},
     {label: getLabel('Yurt Dışı Pazar Araştırması Desteği', 8), value: 8},
     {
+      label: getLabel('Şirket ve Marka Alım Desteği', 9),
+      value: 9,
+    },
+    {
+      label: getLabel('Tasarımcı Şirket ve Tasarım Ofisi Desteği', 10),
+      value: 10,
+    },
+    {
       label: getLabel(
         'Gemi ve Yat Sektöründe Faaliyet Gösteren Şirketlere Tasarım Desteği',
-        9,
+        11,
       ),
-      value: 9,
+      value: 11,
     },
   ]
 
@@ -68,6 +87,19 @@ const IhracatDestekleriScreen = () => {
         switchWrapperStyle={styles.switchWrapperStyle}
       />
       {selectedTab == 0 && <KüreselTedarikZinciri />}
+      {selectedTab == 1 && <BirimKiraDestegi />}
+      {selectedTab == 2 && <YurtDisiFuarDestegi />}
+      {selectedTab == 3 && <YurtİciFuarDestegi />}
+      {selectedTab == 4 && <TanitimDestegi />}
+      {selectedTab == 5 && <YurtDisiMarkaTescilDestegi />}
+      {selectedTab == 6 && <PazaraGirisBelgesiDestegi />}
+      {selectedTab == 7 && <PazaraGirisProjesiHazirlamaDestegi />}
+      {selectedTab == 8 && <YurtDisiPazarArastirmasiDestegi />}
+      {selectedTab == 9 && <SirketVeMarkaAlimDestegi />}
+      {selectedTab == 10 && <TasarimciSirketVeTasarimOfisiDestegi />}
+      {selectedTab == 11 && (
+        <GemiYatSektorundeFaaliyetGosterenSirketlereTasarimDestegi />
+      )}
     </div>
   )
 }

@@ -1,5 +1,5 @@
 export const headerMenu = [
-  {id: 0, title: 'Hakkımızda', linkTo: '/hakkimizda'},
+  {id: 0, title: 'Hakkımızda'},
   {
     id: 1,
     title: 'Hizmetlerimiz',
@@ -17,9 +17,13 @@ export const headerMenu = [
       {
         id: 'h-3',
         title: 'E-İhracat Destekleri',
-        linkTo: '/hizmetlerimiz/e-ihracat',
+        // linkTo: '/hizmetlerimiz/e-ihracat',
       },
-      {id: 'h-4', title: 'SGK Teşvik', linkTo: '/hizmetlerimiz/sgk-tesvik'},
+      {
+        id: 'h-4',
+        title: 'SGK Teşvik',
+        // linkTo: '/hizmetlerimiz/sgk-tesvik'
+      },
     ],
   },
   {id: 2, title: 'Blog'},
