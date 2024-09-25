@@ -1,6 +1,6 @@
 import IhracatDestekleriScreen from '@/screens/ihracat-destekleri/IhracatDestekleri'
 
-const Hizmetlerimiz = () => {
+const IhracatDestekleri = () => {
   return <IhracatDestekleriScreen />
 }
-export default Hizmetlerimiz
+export default IhracatDestekleri

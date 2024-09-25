@@ -1,6 +1,8 @@
 import type {Metadata} from 'next'
 // import {Montserrat} from 'next/font/google'
 import './globals.css'
+import 'slick-carousel/slick/slick.css'
+import 'slick-carousel/slick/slick-theme.css'
 import Head from 'next/head'
 import Header from '@/common/header/Header'
 import Footer from '@/common/footer/Footer'

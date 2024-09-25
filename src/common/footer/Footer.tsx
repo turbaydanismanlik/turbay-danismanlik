@@ -4,9 +4,11 @@ import styles from './Footer.module.css'
 import Image from 'next/image'
 import {Images} from '@/theme'
 import AppUtil from '@/util/AppUtil'
+import {useRouter} from 'next/navigation'
 
 const Footer = () => {
   const {width} = AppUtil.useWindowDimensions()
+  const router = useRouter()
   return (
     <footer className={styles.footer}>
       <Image
@@ -20,7 +22,7 @@ const Footer = () => {
         <div className={styles.linksContainer}>
           {footerLinks?.map((item) => {
             return (
-              <button key={item?.id}>
+              <button key={item?.id} onClick={() => router.push('/iletisim')}>
                 <p>{item?.title}</p>
               </button>
             )

@@ -27,16 +27,17 @@ export const headerMenu = [
     ],
   },
   {id: 2, title: 'Blog'},
-  {id: 3, title: 'İletişim'},
+  {id: 3, title: 'İletişim', linkTo: '/iletisim'},
 ]
 
 export const footerLinks = [
-  {id: 0, title: 'Hakkımızda'},
+  {id: 0, title: 'Hakkımızda', linkTo: ''},
   {
     id: 1,
     title: 'Gizlilik Sözleşmesi',
+    linkTo: '',
   },
-  {id: 2, title: 'KVKK'},
-  {id: 3, title: 'Çerez Politikası'},
-  {id: 4, title: 'Bize Ulaşın'},
+  {id: 2, title: 'KVKK', linkTo: ''},
+  {id: 3, title: 'Çerez Politikası', linkTo: ''},
+  {id: 4, title: 'Bize Ulaşın', linkTo: '/iletisim'},
 ]

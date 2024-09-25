@@ -8,5 +8,10 @@ const footer = {
 
 const home = {
   yatirimTesvik: require('../../public/assets/images/home/yatirim-tesvik.svg'),
+  ktz: require('../../public/assets/images/home/küresel-tedarik-zinciri.svg'),
+  eihracat: require('../../public/assets/images/home/e-ihracat.svg'),
 }
-export default {header, footer, home}
+const iletisim = {
+  yda: require('../../public/assets/images/iletisim/yda-center.png'),
+}
+export default {header, footer, home, iletisim}
