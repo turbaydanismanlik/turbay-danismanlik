@@ -38,24 +38,6 @@ const Home = () => {
     <Slider {...settings} className="slick-slider">
       <div className={styles.container}>
         <div className={styles.textContainer}>
-          <h1>Yatırım Teşvik Belgesi</h1>
-          <p>
-            Yatırımlarınızı gerçekleştirmeden önce alacağınız belge sayesinde
-            KDV istisnası, gümrük vergisi muafiyeti, vergi indirimi gibi birçok
-            avantajdan yararlanabilirsiniz.
-          </p>
-          <button onClick={() => router.push('/hizmetlerimiz/yatirim-tesvik')}>
-            Detaylı Bilgi İçin Tıklayınız
-          </button>
-        </div>
-        <Image
-          src={Images.home.yatirimTesvik}
-          alt="Yatırım Teşvik Görsel"
-          className={styles.images}
-        />
-      </div>
-      <div className={styles.container}>
-        <div className={styles.textContainer}>
           <h1>Küresel Tedarik Zinciri</h1>
           <p>
             Ara mal üreticisi firmalarımızın, yurt dışında yerleşik küresel
@@ -72,6 +54,24 @@ const Home = () => {
         <Image
           src={Images.home.ktz}
           alt="Küresel Tedarik Zinciri Görsel"
+          className={styles.images}
+        />
+      </div>
+      <div className={styles.container}>
+        <div className={styles.textContainer}>
+          <h1>Yatırım Teşvik Belgesi</h1>
+          <p>
+            Yatırımlarınızı gerçekleştirmeden önce alacağınız belge sayesinde
+            KDV istisnası, gümrük vergisi muafiyeti, vergi indirimi gibi birçok
+            avantajdan yararlanabilirsiniz.
+          </p>
+          <button onClick={() => router.push('/hizmetlerimiz/yatirim-tesvik')}>
+            Detaylı Bilgi İçin Tıklayınız
+          </button>
+        </div>
+        <Image
+          src={Images.home.yatirimTesvik}
+          alt="Yatırım Teşvik Görsel"
           className={styles.images}
         />
       </div>
