@@ -18,14 +18,16 @@ const IletisimScreen = () => {
           height={500}
           objectFit="contain"
           className={styles.image}
+          priority={true}
         />
         <div className={styles.contactInfo}>
           <h1>Turbay Danışmanlık İç ve Dış Ticaret A.Ş.</h1>
           <div className={styles.itemsContainer}>
             <ImLocation2 color="var(--text-color)" size={25} />
             <p>
-              Kızılırmak Mahallesi Dumlupınar Bulvarı 9A YDA Center İç Kapı
-              No:158 Çankaya/ANKARA
+              Kızılırmak Mahallesi Dumlupınar Bulvarı
+              <br />
+              9A YDA Center İç Kapı No:158 Çankaya/ANKARA
             </p>
           </div>
           <div className={styles.itemsContainer}>
