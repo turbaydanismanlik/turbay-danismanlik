@@ -16,6 +16,9 @@ const Home = () => {
     speed: 500,
     slidesToShow: 1,
     slidesToScroll: 1,
+    autoplay: true, // Auto-slide
+    autoplaySpeed: 3000, // Time between each slide (in milliseconds)
+    pauseOnHover: true,
     appendDots: (dots: React.ReactElement) => (
       <div
         style={{
@@ -55,6 +58,8 @@ const Home = () => {
           src={Images.home.ktz}
           alt="Küresel Tedarik Zinciri Görsel"
           className={styles.images}
+          loading="eager"
+          priority={true}
         />
       </div>
       <div className={styles.container}>
@@ -73,9 +78,11 @@ const Home = () => {
           src={Images.home.yatirimTesvik}
           alt="Yatırım Teşvik Görsel"
           className={styles.images}
+          loading="eager"
+          priority={true}
         />
       </div>
-      {/* <div className={styles.container}>
+      <div className={styles.container}>
         <div className={styles.textContainer}>
           <h1>E-İhracat</h1>
           <p>
@@ -93,8 +100,10 @@ const Home = () => {
           src={Images.home.eihracat}
           alt="E-ihracat Görsel"
           className={styles.images}
+          loading="eager"
+          priority={true}
         />
-      </div> */}
+      </div>
     </Slider>
   )
 }

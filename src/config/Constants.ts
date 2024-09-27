@@ -1,5 +1,5 @@
 export const headerMenu = [
-  {id: 0, title: 'Hakkımızda'},
+  {id: 0, title: 'Hakkımızda', linkTo: '/hakkimizda'},
   {
     id: 1,
     title: 'Hizmetlerimiz',
@@ -17,7 +17,7 @@ export const headerMenu = [
       {
         id: 'h-3',
         title: 'E-İhracat Destekleri',
-        // linkTo: '/hizmetlerimiz/e-ihracat',
+        linkTo: '/hizmetlerimiz/e-ihracat-destekleri',
       },
       {
         id: 'h-4',
@@ -26,18 +26,17 @@ export const headerMenu = [
       },
     ],
   },
-  {id: 2, title: 'Blog'},
+  {
+    id: 2,
+    title: 'Blog',
+    // linkTo: '/blog'
+  },
   {id: 3, title: 'İletişim', linkTo: '/iletisim'},
 ]
 
 export const footerLinks = [
-  {id: 0, title: 'Hakkımızda', linkTo: ''},
-  {
-    id: 1,
-    title: 'Gizlilik Sözleşmesi',
-    linkTo: '',
-  },
-  {id: 2, title: 'KVKK', linkTo: ''},
-  {id: 3, title: 'Çerez Politikası', linkTo: ''},
-  {id: 4, title: 'Bize Ulaşın', linkTo: '/iletisim'},
+  {id: 0, title: 'Hakkımızda', linkTo: '/hakkimizda'},
+  {id: 1, title: 'KVKK', linkTo: '/kvkk'},
+  {id: 2, title: 'Çerez Politikası', linkTo: '/cerez-politikasi'},
+  {id: 3, title: 'Bize Ulaşın', linkTo: '/iletisim'},
 ]

@@ -1,4 +1,6 @@
+import EIhracatDestekleriScreen from '@/screens/e-ihracat-destekleri/EIhracatDestekleriScreen'
+
 const EIhracatDestekleri = () => {
-  return <div></div>
+  return <EIhracatDestekleriScreen />
 }
 export default EIhracatDestekleri

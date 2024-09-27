@@ -1,0 +1,29 @@
+.container {
+  font-family: 'Montserrat';
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+.container div {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.container h1 {
+  font-size: 20px;
+}
+.container h2 {
+  font-size: 18px;
+}
+.container p {
+  font-size: 15px;
+  text-align: justify;
+  color: var(--secondary-text-color);
+  line-height: 22px;
+}
+.container ul {
+  padding-left: 40px;
+}
+.container ul li {
+  padding: 5px 0;
+}

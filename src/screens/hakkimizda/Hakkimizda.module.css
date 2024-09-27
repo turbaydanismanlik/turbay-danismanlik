@@ -1,0 +1,37 @@
+.container {
+  display: flex;
+  align-items: stretch;
+  justify-content: center;
+  gap: 50px;
+  box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.5);
+  border-radius: var(--border-radius);
+  background-color: #fff;
+}
+.hakkimizda {
+  font-family: 'Montserrat';
+  font-size: 15px;
+  text-align: justify;
+  color: var(--secondary-text-color);
+  line-height: 30px;
+  padding: 20px;
+}
+.image {
+  border-radius: 0px var(--border-radius) var(--border-radius) 0px;
+}
+@media screen and (min-width: 1280px) {
+  .outerContainer {
+    padding-right: 120px;
+    padding-left: 120px;
+  }
+}
+@media screen and (max-width: 1279px) {
+  .container {
+    flex-direction: column;
+    gap: 20px;
+  }
+  .image {
+    width: 100%;
+    height: 100%;
+    border-radius: 0px 0px var(--border-radius) var(--border-radius);
+  }
+}

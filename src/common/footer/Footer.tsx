@@ -22,7 +22,7 @@ const Footer = () => {
         <div className={styles.linksContainer}>
           {footerLinks?.map((item) => {
             return (
-              <button key={item?.id} onClick={() => router.push('/iletisim')}>
+              <button key={item?.id} onClick={() => router.push(item?.linkTo)}>
                 <p>{item?.title}</p>
               </button>
             )

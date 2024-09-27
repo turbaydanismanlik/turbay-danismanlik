@@ -1,3 +1,5 @@
+import Hakkimizda from '@/app/hakkimizda/page'
+
 const header = {
   logo: require('../../public/assets/images/header/logo.svg'),
 }
@@ -14,4 +16,9 @@ const home = {
 const iletisim = {
   yda: require('../../public/assets/images/iletisim/yda-center.png'),
 }
-export default {header, footer, home, iletisim}
+
+const hakkimizda = {
+  hakkimizda: require('../../public/assets/images/hakkimizda/hakkimizda.jpg'),
+}
+
+export default {header, footer, home, iletisim, hakkimizda}

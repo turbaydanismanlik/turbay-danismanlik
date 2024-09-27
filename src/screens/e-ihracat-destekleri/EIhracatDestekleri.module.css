@@ -1,0 +1,48 @@
+.container {
+  font-family: 'Montserrat';
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.container div {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.container h1 {
+  font-size: 20px;
+}
+.container h2 {
+  font-size: 18px;
+}
+.container p,
+.container td,
+.container th {
+  font-size: 15px;
+  text-align: justify;
+  color: var(--secondary-text-color);
+  line-height: 22px;
+}
+.container span {
+  text-decoration: underline;
+}
+.container ul {
+  padding-left: 40px;
+}
+.container ul li {
+  padding: 5px 0;
+}
+.tableContainer {
+  width: 100%;
+  overflow-x: auto;
+}
+.tableContainer::-webkit-scrollbar {
+  display: none;
+}
+@media screen and (max-width: 768px) {
+  .container td,
+  .container th {
+    padding: 12px 5px !important;
+    font-size: 12px;
+  }
+}
