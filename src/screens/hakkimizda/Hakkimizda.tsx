@@ -18,7 +18,7 @@ const HakkimizdaScreen = () => {
           ve sorunlarına çözüm üretmeyi görev bilmekteyiz. Kısa süreli bir
           danışmanlık hizmeti vermekten ziyade maksimum müşteri memnuniyeti ve
           güvene dayalı uzun süreli iş ortaklığı modelini benimseyen firmamızın
-          müşterileri arasında siz de yerini alın.
+          müşterileri arasında siz de yerinizi alın.
         </p>
         <Image
           src={Images.hakkimizda.hakkimizda}
