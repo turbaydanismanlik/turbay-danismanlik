@@ -115,13 +115,6 @@ const CerezPolitikasiScreen = () => {
             ve veriyi ne şekilde topladığımız ve ne amaçla kullandığımızı
             bilgilendirmek adına web sitemizde sunulacaktır.
           </p>
-          <p>
-            <b>UYARI:</b>&nbsp;Bu politika ve içeriği, Turbay Danışmanlık
-            tarafından hazırlanmıştır, Turbay Danışmanlık mülkiyetindedir.
-            İçeriğinin tamamının veya bir kısmının kopyalanması, kullanılması,
-            üçüncü kişiler ile paylaşılması, ifşa edilmesi ve çoğaltılması,
-            Turbay Danışmanlık&apos;ın ön yazılı onayına bağlıdır.
-          </p>
         </div>
       </div>
     </div>
