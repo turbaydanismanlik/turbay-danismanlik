@@ -143,7 +143,11 @@ const DanismanlikTalepFormu = () => {
         )}
       </div>
 
-      <button type="submit" disabled={state.submitting || !isFormValid}>
+      <button
+        type="submit"
+        disabled={state.submitting || !isFormValid}
+        style={state.submitting || !isFormValid ? {opacity: 0.5} : {}}
+      >
         Gönder
       </button>
     </form>
