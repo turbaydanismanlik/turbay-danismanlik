@@ -35,7 +35,7 @@ const DanismanlikTalepFormu = () => {
         }
         break
       case 'telefon':
-        const phonePattern = /^\+90[5-9][0-9]{9}$/
+        const phonePattern = /^\0[5-9][0-9]{9}$/
         if (!phonePattern.test(value)) {
           error = 'Lütfen geçerli bir telefon numarası giriniz. (+905xxxxxxxxx)'
         }
