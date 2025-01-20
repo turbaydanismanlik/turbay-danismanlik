@@ -28,3 +28,6 @@
 .destekUnsurlari ul {
   list-style-type: '– ';
 }
+.destekUnsurlari ul li b:first-child {
+  text-decoration: underline;
+}

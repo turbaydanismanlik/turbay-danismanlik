@@ -122,46 +122,85 @@ const EIhracatDestekleriScreen = () => {
     <div className="wrapper main">
       <div className={styles.container}>
         <div>
-          <h1>Şirketlerin Yararlanabileceği E-İhracat Destekleri</h1>
+          <h1>ŞİRKETLERİN YARARLANABİLECEĞİ E-İHRACAT DESTEKLERİ</h1>
           <p>
             5986 sayılı E-İhracat Destekleri Hakkında Karar kapsamında Amazon,
-            Etsy, Walmart, Otto, Kaufland, Mercado Libre gibi yurt dışı pazar
-            yerlerinde tescilli markalarıyla satış yapan şirketlerin, ürünlerini
-            ön plana çıkarmak amacıyla katlandığı tanıtım giderleri, siparişlere
-            ilişkin teslimat giderleri, pazar yerlerine ödedikleri komisyon
-            giderleri, çevrim içi mağaza ve danışmanlık giderleri
-            desteklenmektedir.
+            Etsy, Walmart, Otto, Kaufland, Mercado Libre gibi&nbsp;
+            <b>
+              yurt dışı pazar yerlerinde tescilli markalarıyla satış yapan
+              şirketlerin,
+            </b>
+            &nbsp;ürünlerini ön plana çıkarmak amacıyla katlandığı&nbsp;
+            <b>tanıtım giderleri,</b> siparişlere ilişkin&nbsp;
+            <b>teslimat giderleri,</b>&nbsp;pazar yerlerine ödedikleri&nbsp;
+            <b>
+              komisyon giderleri, çevrim içi mağaza ve danışmanlık giderleri
+            </b>
+            &nbsp;desteklenmektedir.
           </p>
-          <p>
-            Şirketlerin desteklerden yararlanabilmesi için yurt içinde tescilli
-            markalarını destekten yararlanılacak ülkelerde de tescil ettirmeleri
-            gerekmektedir.
-          </p>
-          <p>
-            E-ihracat desteklerinden yararlanabilmenin bir diğer koşulu ise
-            destekten faydalanılmak istenen ürünlerin üretim süreçlerinin
-            tamamının ya da bir bölümünün Türkiye&apos;de gerçekleştirilmesidir.
-            Ancak Marka ve Turquality Destek Programı kapsamındaki şirketlerde
-            bu şart aranmamaktadır. Destek kapsamına alınma başvurusu yapan
-            şirketler, ürünlerini kendileri imal edebileceği gibi tedarikçi
-            firmalardan da temin edebileceklerdir.
-          </p>
+          <h1>DESTEKTEN YARARLANMA ŞARTLARI NELERDİR?</h1>
+          <ul>
+            <li>
+              <p>
+                Şirketlerin&nbsp;
+                <b>
+                  yurt içinde tescilli markalarını destekten yararlanılacak
+                  ülkelerde de tescil ettirmeleri
+                </b>
+                &nbsp;gerekmektedir.
+              </p>
+            </li>
+            <li>
+              <p>
+                Destekten faydalanılmak istenen ürünlerin &nbsp;
+                <b>
+                  üretim süreçlerinin tamamının ya da bir bölümünün
+                  Türkiye&apos;de gerçekleştirilmesi
+                </b>
+                &nbsp;gerekmektedir. Ancak Marka ve Turquality Destek Programı
+                kapsamındaki şirketlerde bu şart aranmamaktadır. Destek
+                kapsamına alınma başvurusu yapan şirketler, ürünlerini kendileri
+                imal edebileceği gibi tedarikçi firmalardan da temin
+                edebileceklerdir.
+              </p>
+            </li>
+          </ul>
           <p>
             Yurt dışı pazar yerlerinde satış yapan şirketlerin yararlanabileceği
             destek kalemlerine aşağıda sırasıyla yer verilmiştir.
           </p>
         </div>
         <div>
-          <h2>1. Dijital Pazar Yeri Tanıtım Desteği</h2>
+          <h2>1- DİJİTAL PAZAR YERİ TANITIM DESTEĞİ</h2>
           <p>
             Bu başlık altında dijital pazar yerlerinde ürünlerin ön plana
-            çıkarılmasını amaçlayan tıklama başına ödeme, görüntüleme reklamları
-            ve yorum hizmetlerine ait giderler desteklenmektedir. Destek
-            tutarının hesaplanmasında dijital reklamlar üzerinden dönen toplam
-            satışlar dikkate alınmaktadır. Dolayısıyla bu satışların
-            %20&apos;sine (Satışların reklam maliyeti oranı-SRMO en fazla %20
-            olabilir) kadar olan dijital pazar yeri tanıtım giderleri %50
-            oranında desteklenmektedir. Hedef ülkelerde bu oran %70 olarak
+            çıkarılmasını amaçlayan
+            <ul>
+              <li>
+                <b>Tıklama başına ödeme</b>
+              </li>
+              <li>
+                <b>Görüntüleme reklamları</b>
+              </li>
+              <li>
+                <b>Yorum hizmetlerine ait giderler</b>
+              </li>
+            </ul>
+            desteklenmektedir.
+          </p>
+          <p>
+            Şirketler dijital pazar yeri tanıtım desteğinden&nbsp;
+            <b>her pazar yeri için 3 yıl boyunca</b> yararlanabilmektedir.&nbsp;
+            <b>Destek tutarının üst sınırı</b> 2025 yılı için&nbsp;
+            <b>28.615.135 TL</b>&apos;dir.
+          </p>
+          <p>
+            Destek tutarının hesaplanmasında&nbsp;
+            <b>dijital reklamlar üzerinden dönen toplam satışlar</b> dikkate
+            alınmaktadır. Dolayısıyla bu satışların <b>%20&apos;sine</b>&nbsp;
+            (Satışların reklam maliyeti oranı-SRMO en fazla %20 olabilir) kadar
+            olan dijital pazar yeri tanıtım giderleri <b>%50 oranında</b>&nbsp;
+            desteklenmektedir. <b>Hedef ülkelerde</b> bu oran <b>%70</b> olarak
             uygulanmaktadır.
           </p>
           <p>
@@ -169,61 +208,68 @@ const EIhracatDestekleriScreen = () => {
             hesaplamasına aşağıda yer verilmiştir.
           </p>
           {renderDigitalMarketPlaceTable()}
-          <p>
-            Şirketler dijital pazar yeri tanıtım desteğinden her pazar yeri için
-            3 yıl boyunca yararlanabilmektedir. Destek tutarının üst sınırı 2024
-            yılı için <b>20.971.151 TL</b>&apos;dir.
-          </p>
         </div>
         <div>
-          <h2>2. Sipariş Karşılama Hizmeti Desteği</h2>
+          <h2>2- SİPARİŞ KARŞILAMA HİZMETİ DESTEĞİ</h2>
           <p>
             Şirketlerin sipariş karşılama hizmeti sunan firma listesinde yer
             alan firmalardan ya da doğrudan ilgili pazar yerlerinden alacağı
-            yurt dışı sipariş karşılama hizmetine ilişkin giderleri ilgili
-            ülkedeki e-ticaret satışlarının %10&apos;una kadar %50 oranında
-            desteklenmektedir. Bu oran hedef ülkelerde %70 olarak
-            uygulanmaktadır. Bu kapsamda elleçleme, paketleme, iade dahil kargo
-            ücretleri desteğe konu edilmektedir. Örneğin Almanya Amazon üzerinde
-            satış yapan bir şirket DHL&apos;den aldığı hizmet karşılığındaki
-            giderlerini iade alabileceği gibi doğrudan FBA hizmetini kullanması
-            neticesinde oluşan giderlerini de iade alabilecektir. Sipariş
-            karşılama hizmetinden bir ülkede en fazla 3 yıl boyunca
-            yararlanılabilmektedir. Destek tutarının üst sınırı 2024 yılı
+            yurt dışı sipariş karşılama hizmetine ilişkin giderleri&nbsp;
+            <b>
+              ilgili ülkedeki e-ticaret satışlarının %10&apos;una kadar %50
+              oranında
+            </b>
+            &nbsp;desteklenmektedir. Bu oran <b>hedef ülkelerde %70</b> olarak
+            uygulanmaktadır. Bu kapsamda&nbsp;
+            <b>elleçleme, paketleme, iade dahil kargo ücretleri</b> desteğe konu
+            edilmektedir. Örneğin Almanya Amazon üzerinde satış yapan bir şirket
+            DHL&apos;den aldığı hizmet karşılığındaki giderlerini iade
+            alabileceği gibi doğrudan FBA hizmetini kullanması neticesinde
+            oluşan giderlerini de iade alabilecektir. Sipariş karşılama
+            hizmetinden <b>bir ülkede en fazla 3 yıl boyunca</b>&nbsp;
+            yararlanılabilmektedir. Destek tutarının üst sınırı 2025 yılı
             için&nbsp;
-            <b>20.971.151 TL</b>&apos;dir.
+            <b>28.615.135 TL</b>&apos;dir.
           </p>
           <p>Örnek bir hesaplamaya aşağıda yer verilmiştir.</p>
           {renderSampleCalculation()}
         </div>
         <div>
-          <h2>3. Pazar Yeri Komisyon Gideri Desteği</h2>
+          <h2>3- PAZAR YERİ KOMİSYON GİDERİ DESTEĞİ</h2>
           <p>
-            Bu başlık altında Arjantin, Brezilya, Endonezya, Filipinler,
-            Hindistan ve Mısır&apos;da bulunan yurt dışı pazar yerlerine ödenen
-            komisyon giderleri desteklenmektedir. Destek oranı %50 olup,
-            şirketler bir yıl içerisinde maksimum <b>2.096.497 TL</b> destek
-            ödemesinden faydalanabilmektedir.
+            Bu başlık altında&nbsp;
+            <b>
+              Brezilya, Çin Halk Cumhuriyeti, Endonezya, Filipinler, Hindistan
+              ve Mısır
+            </b>
+            &apos;da bulunan yurt dışı pazar yerlerine ödenen komisyon giderleri
+            desteklenmektedir. Destek oranı <b>%50</b> olup, şirketler 2025 yılı
+            içerisinde maksimum <b>2.860.670 TL</b> destek ödemesinden
+            faydalanabilmektedir.
           </p>
         </div>
         <div>
           <h2>
-            4. Çevrim İçi Mağaza ve Hedef Ülke E-Ticaret Paydaşlarından Alınan
-            Hizmet Desteği
+            4- ÇEVRİM İÇİ MAĞAZA VE HEDEF ÜLKE E-TİCARET PAYDAŞLARINDAN ALINAN
+            HİZMET DESTEĞİ
           </h2>
           <p>
-            Şirketlerin Çin, Japonya, Hindistan ve Brezilya&apos;daki pazar
-            yerlerinde çevrim içi mağaza açılmasına, bu mağazaların yıllık
+            Şirketlerin <b>Çin, Japonya, Hindistan ve Brezilya</b>&apos;daki
+            pazar yerlerinde çevrim içi mağaza açılmasına, bu mağazaların yıllık
             ödemelerine ve ülkelerin e-ticaret paydaşlarından alacağı hizmetlere
-            ilişkin giderleri her ülke için 3 yıl süresince ve %50 oranında
-            desteklenmektedir. Destek tutarının üst sınırı 2024 yılı için&nbsp;
-            <b>4.192.994 TL</b>&apos;dir. Destekten faydalanmak isteyen
-            şirketlerin bir önceki yılda en az 2.500.000$ ihracat
-            gerçekleştirmiş olması gerekmektedir.
+            ilişkin giderleri <b>her ülke için 3 yıl</b> süresince ve <b>%50</b>
+            &nbsp;oranında desteklenmektedir. Destek tutarının üst sınırı 2025
+            yılı için&nbsp;
+            <b>5.721.340 TL</b>&apos;dir. Destekten faydalanmak isteyen
+            şirketlerin&nbsp;
+            <b>
+              bir önceki yılda en az 2.500.000$ ihracat gerçekleştirmiş olması
+              gerekmektedir.
+            </b>
           </p>
         </div>
         <div>
-          <h1>Katkılarımız</h1>
+          <h1>KATKILARIMIZ</h1>
           <p>
             Yurt dışı pazar yerlerinde satış yapan firmalarımızın desteklerden
             faydalanabilmesi için kapsama alınma başvurularının yapılması, ürün

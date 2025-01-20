@@ -48,7 +48,7 @@ const Home = () => {
               Ara mal üreticisi firmalarımızın, yurt dışında yerleşik küresel
               firmalara tedarikçi olabilmeleri için ihtiyaç duyduğu
               makine-ekipman alımları, yazılım, eğitim-danışmanlık harcamaları
-              42 milyon TL&apos;ye kadar hibe şeklinde desteklenmektedir.
+              57 milyon TL&apos;ye kadar hibe şeklinde desteklenmektedir.
             </p>
             <button
               onClick={() => router.push('/hizmetlerimiz/ihracat-destekleri')}

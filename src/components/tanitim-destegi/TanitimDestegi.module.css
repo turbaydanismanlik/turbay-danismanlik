@@ -9,9 +9,7 @@
   flex-direction: column;
   gap: 10px;
 }
-.container h1 {
-  font-size: 20px;
-}
+
 .container p,
 .container h2 {
   font-size: 15px;

@@ -1,0 +1,33 @@
+.collapsedContainer {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 10px;
+  font-family: 'Montserrat';
+  padding-bottom: 10px;
+  cursor: pointer;
+}
+.collapsedContainer h1 {
+  font-size: 21px;
+}
+.collapsedContainer button {
+  background-color: var(--text-color);
+  min-width: 50px;
+  width: 50px;
+  height: 30px;
+  color: var(--background-color);
+  font-size: 20px;
+  border-radius: 50px;
+}
+
+.expandedContainer {
+  animation: fade 3s;
+}
+@keyframes fade {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
