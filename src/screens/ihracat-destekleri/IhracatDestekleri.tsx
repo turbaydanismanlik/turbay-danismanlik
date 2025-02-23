@@ -12,8 +12,16 @@ import TanitimDestegi from '@/components/tanitim-destegi/TanitimDestegi'
 import TasarimciSirketVeTasarimOfisiDestegi from '@/components/tasarimci-sirket-ve-tasarim-ofisi-destegi/TasarimciSirketVeTasarimOfisiDestegi'
 import GemiYatSektorundeFaaliyetGosterenSirketlereTasarimDestegi from '@/components/gemi-yat-sektorunde-faaliyet-gosteren-sirketlere-tasarim-destegi/GemiYatSektorundeFaaliyetGosterenSirketlereTasarimDestegi'
 import {useSearchParams} from 'next/navigation'
+import {Suspense} from 'react'
 
 const IhracatDestekleriScreen = () => {
+  return (
+    <Suspense fallback={<></>}>
+      <Content />
+    </Suspense>
+  )
+}
+const Content = () => {
   const params = useSearchParams()
   const isFromHomePage = params.get('fromHome')
   return (
