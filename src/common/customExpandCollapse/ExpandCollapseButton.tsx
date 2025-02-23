@@ -1,5 +1,5 @@
 'use client'
-import {useState} from 'react'
+import {useEffect, useState} from 'react'
 import styles from './ExpandCollapseButton.module.css'
 
 interface ExpandCollapseButtonProps {
@@ -7,9 +7,16 @@ interface ExpandCollapseButtonProps {
   sectionTitle: string
   children: any
 }
-const ExpandCollapseButton = ({isExpanded = false, sectionTitle, children}) => {
+const ExpandCollapseButton = ({
+  isExpanded = false,
+  sectionTitle,
+  children,
+}: ExpandCollapseButtonProps) => {
   const [isContentExpanded, setIsContentExpanded] = useState(isExpanded)
   const buttonTitle = isContentExpanded ? '–' : '+'
+  useEffect(() => {
+    setIsContentExpanded(isExpanded)
+  }, [isExpanded])
   return (
     <div>
       <div

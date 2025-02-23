@@ -51,7 +51,9 @@ const Home = () => {
               57 milyon TL&apos;ye kadar hibe şeklinde desteklenmektedir.
             </p>
             <button
-              onClick={() => router.push('/hizmetlerimiz/ihracat-destekleri')}
+              onClick={() =>
+                router.push('/hizmetlerimiz/ihracat-destekleri?fromHome=true')
+              }
             >
               Detaylı Bilgi İçin Tıklayınız
             </button>

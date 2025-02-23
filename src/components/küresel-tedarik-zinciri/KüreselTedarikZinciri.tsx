@@ -1,10 +1,12 @@
+'use client'
 import ExpandCollapseButton from '@/common/customExpandCollapse/ExpandCollapseButton'
 import styles from './KüreselTedarikZinciri.module.css'
+import {useEffect, useState} from 'react'
 
-const KüreselTedarikZinciri = () => {
+const KüreselTedarikZinciri = ({isFromHomePage}) => {
   return (
     <ExpandCollapseButton
-      isExpanded={true}
+      isExpanded={isFromHomePage}
       sectionTitle="KÜRESEL TEDARİK ZİNCİRİ DESTEĞİ"
     >
       <div className={styles.container}>

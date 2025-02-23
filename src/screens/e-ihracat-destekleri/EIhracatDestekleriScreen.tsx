@@ -171,7 +171,7 @@ const EIhracatDestekleriScreen = () => {
           </p>
         </div>
         <div>
-          <h2>1- DİJİTAL PAZAR YERİ TANITIM DESTEĞİ</h2>
+          <h2>DİJİTAL PAZAR YERİ TANITIM DESTEĞİ</h2>
           <p>
             Bu başlık altında dijital pazar yerlerinde ürünlerin ön plana
             çıkarılmasını amaçlayan
@@ -210,7 +210,7 @@ const EIhracatDestekleriScreen = () => {
           {renderDigitalMarketPlaceTable()}
         </div>
         <div>
-          <h2>2- SİPARİŞ KARŞILAMA HİZMETİ DESTEĞİ</h2>
+          <h2>SİPARİŞ KARŞILAMA HİZMETİ DESTEĞİ</h2>
           <p>
             Şirketlerin sipariş karşılama hizmeti sunan firma listesinde yer
             alan firmalardan ya da doğrudan ilgili pazar yerlerinden alacağı
@@ -235,7 +235,7 @@ const EIhracatDestekleriScreen = () => {
           {renderSampleCalculation()}
         </div>
         <div>
-          <h2>3- PAZAR YERİ KOMİSYON GİDERİ DESTEĞİ</h2>
+          <h2>PAZAR YERİ KOMİSYON GİDERİ DESTEĞİ</h2>
           <p>
             Bu başlık altında&nbsp;
             <b>
@@ -250,7 +250,7 @@ const EIhracatDestekleriScreen = () => {
         </div>
         <div>
           <h2>
-            4- ÇEVRİM İÇİ MAĞAZA VE HEDEF ÜLKE E-TİCARET PAYDAŞLARINDAN ALINAN
+            ÇEVRİM İÇİ MAĞAZA VE HEDEF ÜLKE E-TİCARET PAYDAŞLARINDAN ALINAN
             HİZMET DESTEĞİ
           </h2>
           <p>

@@ -5,10 +5,9 @@
   gap: 10px;
 }
 .container div {
-  /* display: flex;
+  display: flex;
   flex-direction: column;
-  gap: 10px; */
-  padding: 5px 0;
+  gap: 10px;
 }
 .container h1 {
   font-size: 20px;
@@ -19,16 +18,12 @@
   color: var(--secondary-text-color);
   line-height: 22px;
 }
-
+.container span {
+  text-decoration: underline;
+}
 .container ul {
   padding-left: 40px;
 }
 .container ul li {
   padding: 5px 0;
-}
-.destekUnsurlari ul {
-  list-style-type: '– ';
-}
-.destekUnsurlari ul li b:first-child {
-  text-decoration: underline;
 }

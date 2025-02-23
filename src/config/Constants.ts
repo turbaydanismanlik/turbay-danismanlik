@@ -22,15 +22,20 @@ export const headerMenu = [
       {
         id: 'h-4',
         title: 'SGK Teşvik',
-        // linkTo: '/hizmetlerimiz/sgk-tesvik'
+        linkTo: '/hizmetlerimiz/sgk-tesvik',
+      },
+      {
+        id: 'h-5',
+        title: 'Yeşil Dönüşüm Destek Programı',
+        linkTo: '/hizmetlerimiz/yesil-donusum-destek-programi',
       },
     ],
   },
-  {
-    id: 2,
-    title: 'Blog',
-    // linkTo: '/blog'
-  },
+  // {
+  //   id: 2,
+  //   title: 'Blog',
+  //   // linkTo: '/blog'
+  // },
   {id: 3, title: 'İletişim', linkTo: '/iletisim'},
 ]
 
